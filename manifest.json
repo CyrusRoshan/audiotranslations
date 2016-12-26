@@ -5,19 +5,11 @@
     "version": "0.0.1",
 
     "permissions": [
-        "downloads",
-        "webRequest",
-        "storage",
-        "https://www.google.com/"
+        "downloads"
     ],
 
     "browser_action": {
         "default_icon": "logo.png",
         "default_popup": "popup.html"
-    },
-
-    "background": {
-        "scripts": ["getVerification.js"],
-        "persistent": true
     }
 }
